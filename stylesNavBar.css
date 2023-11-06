@@ -1,0 +1,34 @@
+/* Estilos específicos para dispositivos pequenos */
+@media (max-width: 991.98px) {
+    .navbar-brand,
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    .navbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+    }
+  
+    .navbar .navbar-toggler {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .navbar-nav {
+      margin-top: .5rem;
+    }
+  }
+  
+  /* Estilo da logo para manter a consistência em todas as resoluções */
+  .logo {
+    height: 50px; /* Custom logo height */
+  }
+  
+  /* Estilos específicos para dispositivos maiores */
+  @media (min-width: 992px) {
+    .navbar .form-control {
+      max-width: none;
+    }
+  }
+  
